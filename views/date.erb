@@ -5,7 +5,7 @@
   <body>
     <h1>Today</h1>
     <% date = DateTime.new(2018,6,16) %>
-    <% b = date.strftime("%A") %>
-    <p><%= "The date is " + b %></p>
+    <% b = date.strftime("The date is %A, %B %d, %y" %>
+    <p><%= "The date is " + b%></p>
   </body>
 </html>
